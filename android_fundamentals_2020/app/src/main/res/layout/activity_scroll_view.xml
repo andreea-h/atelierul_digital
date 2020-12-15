@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week3.ScrollViewActivity"
+    tools:fillViewport="true"> <!--scrollView-ul nostru ocupa tot ecranul-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <View
+                android:id="@+id/start_view"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@color/orange"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true">
+            </View>
+
+            <View
+                android:id="@+id/end_view"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true">
+            </View>
+
+            <View
+                android:id="@+id/middle_view"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:layout_toEndOf="@id/purple_view"
+                android:layout_toRightOf="@id/purple_view">
+            </View>
+
+            <View
+                android:id="@+id/purple_view"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:layout_centerHorizontal="true">
+            </View>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/long_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum_very_long">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

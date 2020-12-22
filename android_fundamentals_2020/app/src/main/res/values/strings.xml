@@ -38,8 +38,17 @@ Nulla sed scelerisque urna. Phasellus efficitur iaculis est, vel posuere tortor 
     <string name="phone">Phone</string>
     <string name="email">Email</string>
     <string name="login">Login</string>
+
     <string name="email_cannot_be_empty">Email address cannot be empty</string>
     <string name="email_not_valid">Email address is not valid</string>
     <string name="phone_cannot_be_empty">Phone address cannot be empty</string>
     <string name="phone_not_valid">Phone number is not valid</string>
+
+
+    <string name="merry_little_christmas">Have yourself a merry Christmas,\nLet your heart be light\nFrom now on, our troubles will be out of sight</string>
+    <string name="jingles_bells">Jingles bells</string>
+    <string name="happy_holidays">Happy Holidays!</string>
+    <string name="let_it_snow">Let it snow</string>
+    <string name="from_ionut">From Andreea</string>
+    <string name="star_big">star big</string>
 </resources>

@@ -11,9 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentals2020"
         tools:ignore="AllowBackup">
-
-        <activity
-            android:name=".week3.SpinnerActivity">
+        <activity android:name=".week4.RecyclerViewActivity"></activity>
+        <activity android:name=".week4.ConstraintLayoutActivity" />
+        <activity android:name=".week3.SpinnerActivity"/>
+        <activity android:name=".week4.RecapChallengeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +24,7 @@
         <activity android:name=".week3.FrameLayout" />
         <activity android:name=".week3.ScrollViewActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".week2.ViewsActivity"/>
+        <activity android:name=".week2.ViewsActivity" />
     </application>
 
 </manifest>
